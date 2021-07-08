@@ -1,0 +1,216 @@
+/* font-family: 'PT Sans', sans-serif; */
+@font-face{
+    font-family: "FreeSnas", sans-serif;
+    src: url(../fonts/FreeSansBold.ttf);
+}
+/* global section start  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+/* global section end  */
+
+/* nav and logo section start */
+header{
+    /* border: 1px solid red; */
+    top: 0;
+    position: relative;
+    /* display: none; */
+}
+.logo{
+    float: left;
+    margin-top: 40px;
+    width: 13%;
+    /* border: 1px solid rgb(109, 141, 46)141, 46); */
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    margin-top: 35px;
+    float: right;
+    /* border: 1px solid blueviolet; */
+}
+.menu ul{
+    list-style: none;
+
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-weight: bold;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/* nav and logo section end */
+
+/* banner section start  */
+#banner{
+    /* margin-top: -20px; */
+    background: #fcdb00;
+    height: 650px;
+}
+.banner{
+    padding-top: 150px;
+}
+.banner-left{
+    width: 45%;
+    float: left;
+}
+.banner-left h1{
+}
+.banner-left ul{
+    list-style: none;
+}
+.banner-left ul li{
+    float: left;
+}
+.banner-left ul li i{
+    color: black;
+    font-size: 40px;
+    padding: 20px;
+}
+.banner-right{
+    width: 43%;
+    float: right;
+}
+.banner-right .box{
+    height: 350px;
+    width: 270px;
+    background: black;
+    border-top: 40px solid whitesmoke;
+    border-bottom: 40px solid whitesmoke;
+    border-right: 10px solid whitesmoke;
+    border-left: 10px solid whitesmoke;
+    border-radius: 10px;
+    z-index: -99;
+}
+.banner-right .box img{
+    z-index: 99;
+    margin: 160px 0 0 60px;
+}
+.dot{
+    width: 150px;
+    margin: 0 auto;
+}
+.dot ul{
+    margin-top: 450px;
+}
+.dot ul li{
+    margin-top: 450px;
+    float: left;
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgba(240, 238, 238, 0.808);
+}
+.dot ul li:first-child{
+    background: whitesmoke;
+}
+
+/* banner section end  */
+/* feature section start  */
+.feature-title-desc{
+    text-align: center;
+}
+.row-fe1{
+    width: 100%;
+    overflow: hidden;
+}
+.row-fe1 .col-4{
+    width: 30%;
+    margin: 10px;
+    overflow: hidden;
+    float: left;
+}
+.row-fe2{
+    width: 100%;
+}
+.row-fe2 .icon{
+    width: 40%;
+    float: left;
+}
+.row-fe2 .icon i{
+    font-size: 60px;
+    margin-top: 50px;
+    height: 100px;
+}
+/* feature section end  */
+/* with us section start  */
+#with-us{
+    width: 100%;
+    height: 600px;
+    background: black;
+}
+.with-us{
+    padding-top: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.with-us-title-desc{
+    text-align: center;
+    color: whitesmoke;
+}
+.with-us-title-desc h1{
+    color: #fcdb00;
+}
+.row-with-us{
+    width: 50%;
+    margin: 0 auto;
+}
+.with-us-input{
+    height: 45px;
+    width: 75%;
+    float: left;
+    border-radius: 10px;
+}
+.btn-with-us{
+    width: 23%;
+    height: 50px;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background: #fcdb00;
+}
+.with-us-icon-menu{
+    width: 25%;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.with-us-icon-menu ul{
+    list-style: none;
+}
+.with-us-icon-menu ul li{
+    float: left;
+    margin: 10px;
+    font-size: 50px;
+    color: #fcdb00;
+    text-align: center;
+}
+.row-footer{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.row-footer .col{
+    width: 30%;
+    float: left;
+    color: aliceblue;
+}
+
+/* with us section end  */
